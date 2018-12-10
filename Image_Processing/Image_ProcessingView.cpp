@@ -102,6 +102,7 @@ ON_COMMAND(ID_32873, &CImage_ProcessingView::OnMyimg_PROCESSING)
 END_MESSAGE_MAP()
 
 // CImage_ProcessingView 构造/析构
+//使用了github
 
 CImage_ProcessingView::CImage_ProcessingView()
 	: Times(1)
