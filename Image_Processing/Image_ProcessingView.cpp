@@ -2955,7 +2955,7 @@ void CImage_ProcessingView::OnSelfmedianfilter()
 			}
 		}
 
-		//暂存数组，求取中值
+		//暂存数组，用于求取中值
 		int *B,*G,*R;
 		B= new int[dlg.m_FileterSize*dlg.m_FileterSize];
 		G= new int[dlg.m_FileterSize*dlg.m_FileterSize];
